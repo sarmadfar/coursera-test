@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function alert1 ()
+{
+var alert2 = prompt ('get element');
+document.getElementById('alal').innerHTML = alert2;
+}
+function multiple ()
+{
+var datainput2 = document.getElementById("m4").value;
+var datainput1 = document.getElementById("m5").value;
+if (datainput1 !="" & datainput2 !="")
+document.getElementById("Mu5").innerHTML = (datainput1*datainput2);
+else alert("you have to put a number in blank box!") 
+}
+function divide ()
+{
+var datainput2 = document.getElementById("m4").value;
+var datainput1 = document.getElementById("m5").value;
+if (datainput1 !="" & datainput2 !="")
+document.getElementById("Mu5").innerHTML = (datainput1/datainput2);
+else alert("you have to put a number in blank box!") 
+}
+function minus ()
+{
+var datainput2 = document.getElementById("m4").value;
+var datainput1 = document.getElementById("m5").value;
+if (datainput1 !="" & datainput2 !="")
+document.getElementById("Mu5").innerHTML = (datainput1-datainput2);
+else alert("you have to put a number in blank box!") 
+}
+function sum ()
+{
+var datainput2 = document.getElementById("m4").value;
+var datainput1 = document.getElementById("m5").value;
+if (datainput1 !="" & datainput2 !="")
+document.getElementById("Mu5").innerHTML = (datainput1-(-datainput2));
+else alert("you have to put a number in blank box!") 
+}
+
+</script>
+<title dir="rtl">calculator
+</title>
+  <meta charset="UTF-8">
+</head>
+<body style="background-color:Ivory;">
+<button id="alal" onclick="alert1();">Alert Me</button>
+<input id="m5" type="number"/><input id="m4" type="number"/>
+<button onclick="multiple();">*</button>
+<button onclick="divide();">/</button>
+<button onclick="minus();">-</button>
+<button onclick="sum();">+</button>
+<p id="Mu5"></p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+function getexchangerate ()
+{
+var exchangerate = prompt("نرخ لحظه ای دلار را وارد کن");
+if (exchangerate != "")
+{
+document.getElementById("para").innerHTML = exchangerate;
+}
+else getexchangerate ();
+}
+function addParagraphText()
+{
+var testInput = document.getElementById("name").value;
+document.getElementById("para").innerHTML = testInput.toUpperCase ();
+}
+</script>
+</head>
+<body onload= "getexchangerate();">
+<input id="name"></input>
+<button type="button" onclick="addParagraphText();">نرخ لحظه ای دلار</button>
+<p id="para" ></p>
+</body>
+</html>

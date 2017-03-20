@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پرداخت خارجی</title>
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap-social.css" rel="stylesheet">
+<link href="css/mystyles.css" rel="stylesheet">
+</head>
+
+<body dir="rtl" data-spy="scroll" data-offset="200" data-target="#myScrollspy">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<a href="Home.html"><img src="img/logo.png" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="Home.html" aria-expanded="false" aria-controls="navbar" width="100" height="75"></a>
+				</div>
+				<div class="col-xs-3 col-xs-offset-5">
+					<div class="navbar-header">
+						<button type="button" class="btn btn-primary navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+                </div>
+			</div>
+		<font size="3" face="tahoma">
+			<div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+					<li class="active"><a href="Home.html"><font size="3"><span class="glyphicon glyphicon-home">
+					</span>          خانه</font></a></li>
+					<li><a href="aboutus.htm"><font size="3"><span class="glyphicon glyphicon-info-sign">
+					</span>          درباره ما</font></a></li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+						 role="button" aria-haspopup="true" aria-expanded="false">
+						 <font size="3"><span class="glyphicon glyphicon-list-alt">
+						 </span>          سفارش ها</font><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+							<li><a href="#">ثبت سفارش</a></li>
+							<li><a href="#">افزایش اعتبار</a></li>
+							<li><a href="#">پیگیری سفارش ها</a></li>
+						</ul>
+					</li>
+					<li><a href="contactus.htm"><font size="3"><span class="fa fa-envelope-o">
+					</span>          تماس با ما</font></a></li>
+				</ul>
+					<button class="btn btn-primary" id="gaga" data-toggle="modal" data-target="#loginModal">
+					<span class="glyphicon glyphicon-log-in"></span>
+					<font color="white">ثبت نام</font></button>
+				<form class="navbar-form navbar-left" role="login">
+					<div class="form-group">
+						<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-user"></span>
+						          ورود</button>
+						<label class="checkbox-inline">
+							<input type="checkbox" name="approve" value="">
+								<font face="B Nazanin" size="3" color="white">به خاطر بسپار</font>
+						</label>
+						<input type="text" class="form-control input-sm" placeholder="نام کاربری">
+						<input type="text" class="form-control input-sm" placeholder="رمز عبور">
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div id="loginModal" class="modal fade" role="dialog">
+		<!-- Modal content-->
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">ورود </h4>
+					</div>
+					<div class="modal-body">							
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="نام کاربری">
+								<input type="text" class="form-control" placeholder="رمز عبور">
+								<input type="text" class="form-control" placeholder="تکرار رمز عبور">
+								<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span>
+										ثبت نام</button>
+								<button type="button" class="btn btn-default btn-sm"
+									data-dismiss="modal">بستن</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <header class="jumbotron">	
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-xs-12 col-sm-8" id="nana">
+                    <h1><font face="B Nazanin"><b>خدمات پرداخت  خارج از کشور</b></font></h1>
+                    <p><font face="B Nazanin">
+					انجام کلیه ی امور پرداخت از سایت های خارجی با کارت های اعتباری در کمترین زمان و با کمترین نرخ کارمزد
+					<p style="padding:1"></p>
+					<a class="btn btn-info" href="#">بیشتر بدانید &raquo;</a></font></p>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+					<div class="row">
+						<p style="padding:10px"></p>
+					</div>
+					<div class="row">
+						<img src="img/logo.png" class="img-responsive">
+					</div>
+                </div>
+				<div class="col-xs-12 col-sm-2">
+					<div class="row">
+						<p style="padding:30px"></p>
+					</div>
+					<div class="row">
+						<button class="btn btn-warning btn-lg responsive" 
+						data-toggle="modal" data-target="#moneytransfer">
+						<font color="white">درخواست انتقال</font></button>
+					</div>
+				</div>
+            </div>
+        </div>
+    </header>
+
+	<div class="container-fluid">
+		<div id="moneytransfer" class="modal fade" role="dialog">
+		<!-- Modal content-->
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">درخواست انتقال وجه </h4>
+					</div>
+					<div class="modal-body">							
+						<form class="form-inline">
+							<form class="form-horizontal" role="form">
+								<div class="row">
+									<div class="col-xs-12" align="center">
+										<div class="alert alert-warning alert-dismissible" role="alert">
+											امکان جابجایی مبالغ بالاتر از 10 هزار دلار (یورو، پوند، دلار کانادا و ...) وجود ندارد!
+											<button type="button" class="close" data-dismiss="alert" aria-label="close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+									</div>
+								</div>
+								<form class="form-horizontal" role="form">
+									<div class="row">
+										<div class="col-sm-6 col-lg-4">
+											<div class="form-group">
+												<label for="ارز در دسترس" class="col-md-4 control-label">
+												<font face="B Nazanin" size="4px">ارز در دسترس:</font></label>
+												<div class="col-md-8">
+													<input type="text" class="form-control input-sm" placeholder="دلار امریکا">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-lg-4">
+											<div class="form-group">
+												<label for="مبلغ" class="col-md-4 control-label">
+												<font face="B Nazanin" size="4px">مبلغ:</font></label>
+												<div class="col-md-8">
+													<input type="number" class="form-control input-sm" placeholder="10000" max="10000">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-lg-4">
+											<div class="form-group">
+												<label for="کشور مبدا:" class="col-md-4 control-label">
+												<font face="B Nazanin" size="4px">کشور مبدا:</font></label>
+												<div class="col-md-8">
+													<input type="text" class="form-control input-sm" placeholder="کانادا">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-lg-4">
+											<div class="form-group">
+												<label for="ارز در دسترس" class="col-md-4 control-label">
+												<font face="B Nazanin" size="4px">ارز در دسترس:</font></label>
+												<div class="col-md-8">
+													<input type="text" class="form-control input-sm" placeholder="دلار امریکا">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-lg-4">
+											<div class="form-group">
+												<label for="مبلغ" class="col-md-4 control-label">
+												<font face="B Nazanin" size="4px">مبلغ:</font></label>
+												<div class="col-md-8">
+													<input type="number" class="form-control input-sm" placeholder="10000" max="10000">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-lg-4">
+											<div class="form-group">
+												<label for="کشور مبدا:" class="col-md-4 control-label">
+												<font face="B Nazanin" size="4px">کشور مبدا:</font></label>
+												<div class="col-md-8">
+													<input type="text" class="form-control input-sm" placeholder="کانادا">
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="btn btn-group-justified" data-toggle="buttons">
+									<label class="btn btn-warning active col-xs-12">
+										<input type="radio" name="options" id="option1" autocomplete="off" checked>
+										<font size="4" face="B nazanin"><b>درخواست ار ما</b></font>
+									</label>					
+									<label class="btn btn-warning col-xs-12">
+										<input type="radio" name="options" id="option2" autocomplete="off">
+										<font size="4" face="B nazanin"><b>آگهی عمومی</b></font>
+									</label>
+									<label class="btn btn-warning col-xs-12">
+										<input type="radio" name="options" id="option2" autocomplete="off">
+										<font size="4" face="B nazanin"><b>آگهی پرداخت شده</b></font>
+									</label>
+								</div>
+									<p style="padding:1"></p>
+									<button type="submit" class="btn btn-success btn-block btn-lg">
+									<font face="B Nazanin" size="5px">ثبت آگهی</font></button>
+								</form>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+    <div class="container">
+		<div class="row row-content">
+            <div class="col-xs-12">
+               <ul class="breadcrumb">
+                   <li><a href="Home.html">خانه</a></li>
+               </ul>
+            </div>
+			<div class="col-xs-12">
+				<div id="mycarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#mycarousel" data-slide-to="1"></li>
+						<li data-target="#mycarousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/1.jpg" class="img-responsive" alt="Uthappizza">
+							<div class="carousel-caption">
+								<h2 class="media-heading">Uthappizza <span class="label label-danger">Hot</span>
+								<span class="badge">$4.99</span></h2>
+								<p>A unique combination of Indian Uthappam (pancake) and
+									Italian pizza, topped with Cerignola olives, ripe vine
+									cherry tomatoes, Vidalia onion, Guntur chillies and
+									Buffalo Paneer.</p>
+								<p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/2.jpg" alt="Weekend Grand Buffet" class="img-responsive">
+							<div class="carousel-caption">
+								<h2 class="media-heading">Weekend Grand Buffet 
+								<span class="label label-danger">New</span></h2>
+								<p>Featuring mouthwatering combinations with a choice
+									of five different salads, six enticing appetizers,
+									six main entrees and five choicest desserts. Free 
+									flowing bubbly and soft drinks. All for just $19.99 
+									per person. </p>
+								<p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+							</div>
+						</div>
+						<div class="item">
+							<img class="img-responsive" src="img/3.jpg" alt="Alberto Somayya">
+							<div class="carousel-caption">
+								<h2 class="media-heading">Alberto Somayya</h2>
+								<h4>Executive Chef</h4>
+								<p>Award winning three-star Michelin chef with wide
+									International experience having worked closely with
+									whos-who in the culinary world, he specializes in
+									creating mouthwatering Indo-Italian fusion experiences.</p>
+								<p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+							</div>						
+						</div>
+					</div>
+					                <!-- Controls -->
+                <a class="left carousel-control" href="#mycarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+				<div class="btn-group" id="carouselButtons">
+					<button class="btn btn-danger btn-sm" id="carousel-pause">
+						<span class="fa fa-pause" aria-hidden="true"></span>
+					</button>
+					<button class="btn btn-danger btn-sm" id="carousel-play">
+						<span class="fa fa-play" aria-hidden="true"></span>
+					</button>
+				</div>
+				</div>
+			</div>
+		</div>
+                <p style="padding:20px;"></p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+                <p style="padding:20px;"></p>
+                <h3 align=center>Our Lipsmacking Culinary Creations</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                        <img class="media-object img-thumbnail"
+                         src="img/uthappizza.png" alt="Uthappizza">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">Uthappizza <span class="label label-danger">Hot</span>
+						<span class="badge">$4.99</span></h2>
+                        <p>A unique combination of Indian Uthappam (pancake) and
+                          Italian pizza, topped with Cerignola olives, ripe vine
+                          cherry tomatoes, Vidalia onion, Guntur chillies and
+                          Buffalo Paneer.</p>
+                        <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+                <h3 align=center>This Month's Promotions</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+			<div class="media">
+                    <div class="media-body">
+                        <h2 class="media-heading">Weekend Grand Buffet
+						<span class="label label-danger">New</span></h2>
+						<p>Featuring mouthwatering combinations with a
+							choice of five different salads, six enticing 
+							appetizers,six main entrees and five choicest
+							desserts. Free flowing bubbly and soft drinks.
+							All for just $19.99 per person. </p>
+                        <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+                    </div>
+                    <div class="media-left media-middle">
+                        <a href="#">
+                        <img class="media-object img-thumbnail"
+                         src="img/buffet.png" alt="Weekend Grand Buffet">
+                        </a>
+                    </div>
+            </div>
+        </div>
+	</div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+                <p style="padding:20px;"></p>
+                <h3 align=center>Meet our Culinary Specialists</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                        <img class="media-object img-thumbnail"
+                         src="img/alberto.png" alt="Alberto Somayya">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p>Award winning three-star Michelin chef with wide
+                         International experience having worked closely with
+                         whos-who in the culinary world, he specializes in
+                          creating mouthwatering Indo-Italian fusion experiences.
+                         </p>
+                        <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+                    </div>
+                </div>            
+			</div>
+        </div>
+		<p style="padding:50px" id="transfer"></p>
+	<form class="form-horizontal" role="form">
+		<div class="row">
+			<div class="col-xs-12" align="center">
+				<div class="alert alert-warning alert-dismissible" role="alert">
+					امکان جابجایی مبالغ بالاتر از 10 هزار دلار (یورو، پوند، دلار کانادا و ...) وجود ندارد!
+					<button type="button" class="close" data-dismiss="alert" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+					<label for="firstname" class="col-xs-12 col-sm-2">
+					<font face="B Nazanin" size="4px">ارز در دسترس:</font></label>
+				<div class="col-xs-12 col-sm-2">
+					<input type="text" class="form-control" placeholder="دلار امریکا">
+				</div>
+					<label for="firstname" class="col-xs-12 col-sm-2">
+					<font face="B Nazanin" size="4px">مبلغ:</font></label>
+				<div class="col-xs-12 col-sm-2">
+					<input type="number" class="form-control" placeholder="10000" max="10000">
+				</div>
+					<label for="firstname" class="col-xs-12 col-sm-2">
+					<font face="B Nazanin" size="4px">کشور مبدا:</font></label>
+				<div class="col-xs-12 col-sm-2">
+					<input type="text" class="form-control" placeholder="کانادا">
+				</div>
+		</div>
+		<div class="form-group">
+					<label for="firstname" class="col-xs-12 col-sm-2">
+					<font face="B Nazanin" size="4px">ارز مورد نیاز:</font></label>
+				<div class="col-xs-12 col-sm-2">
+					<input type="text" class="form-control" placeholder="ریال">
+				</div>
+					<label for="firstname" class="col-xs-12 col-sm-2">
+					<font face="B Nazanin" size="4px">نرخ برابری:</font></label>
+				<div class="col-xs-12 col-sm-2">
+					<input type="number" class="form-control" placeholder="38000">
+				</div>
+					<label for="firstname" class="col-xs-12 col-sm-2">
+					<font face="B Nazanin" size="4px">کشور مقصد:</font></label>
+				<div class="col-xs-12 col-sm-2">
+					<input type="text" class="form-control" placeholder="ایران">
+				</div>
+		</div>
+		<div class="btn btn-group-justified" data-toggle="buttons">
+			<label class="btn btn-warning active col-xs-12">
+				<input type="radio" name="options" id="option1" autocomplete="off" checked>
+				<font size="4" face="B nazanin"><b>درخواست ار ما</b></font>
+			</label>					
+			<label class="btn btn-warning col-xs-12">
+				<input type="radio" name="options" id="option2" autocomplete="off">
+				<font size="4" face="B nazanin"><b>آگهی عمومی</b></font>
+			</label>
+			<label class="btn btn-warning col-xs-12">
+				<input type="radio" name="options" id="option2" autocomplete="off">
+				<font size="4" face="B nazanin"><b>آگهی پرداخت شده</b></font>
+			</label>
+		</div>
+			<p style="padding:1"></p>
+			<button type="submit" class="btn btn-success btn-block btn-lg">
+			<font face="B Nazanin" size="5px">ثبت آگهی</font></button>
+	</form>
+	</div>
+			<p style="padding:50px"></p>
+	<footer class="row-footer">
+	<div class="container">
+		<div class="row">             
+			<div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
+				<font face="B Nazanin" size="5px">
+					<h5>لینک ها:</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">خانه</a></li>
+						<li><a href="#">درباره ما</a></li>
+						<li><a href="#">سفارشات</a></li>
+						<li><a href="#">تماس با ما</a></li>
+					</ul>
+				</font>
+				</div>
+				<div class="col-xs-6 col-sm-5">
+					<h5>نشانی ما:</h5>
+					<address">
+					<font face="B Nazanin" size="5px">
+					تهران خیابان شهید بهشتی<br>
+					خیابان شهید صابونچی (آپادانا)<br>
+					کوچه چهارم پلاک 7 واحد 10<br>
+					<i class="fa fa-phone"></i>:02122271066<br>
+					<i class="fa fa-fax"></i>:09333726880<br>
+					<i class="fa fa-envelope"></i>: 
+						<a href="mailto:confusion@food.net">info@foreignpay.ir</a>
+					</address>
+				</div>
+				<div class="col-sm-4 col-xs-12" align="center">
+					<div class="nav navbar-nav" style="padding: 40px 10px;">
+						<a class="btn btn-social-icon" href="http://google.com/+">
+						<i class="fa fa-google-plus"></i></a>
+						<a class="btn btn-social-icon" href="http://www.facebook.com/profile.php?id=">
+						<i class="fa fa-facebook"></i></a>
+						<a class="btn btn-social-icon" href="http://www.linkedin.com/in/">
+						<i class="fa fa-linkedin"></i></a>
+						<a class="btn btn-social-icon" href="https://t.me/TSEAnalyst">
+						<i class="fa fa-telegram"></i></a>
+						<a class="btn btn-social-icon" href="mailto:">
+						<i class="fa fa-envelope-o"></i></a>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<p style="padding:10px;"></p>
+					<p align="center">© Copyright 2015 Foreign Pay Corporation</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>	
+	<!--	Include	all	compiled	plugins	(below),	or	include	individual	files as	needed	-->	
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>	
+	<script>
+		$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	<script>
+        $(document).ready(function(){
+            $("#mycarousel").carousel( { interval: 2000 } );
+                          $("#carousel-pause").click(function(){
+                $("#mycarousel").carousel('pause');
+            });
+                        $("#carousel-play").click(function(){
+                $("#mycarousel").carousel('cycle');
+            });
+        });
+	</script>
+	
+</body>
+
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پرداخت خارجی</title>
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap-social.css" rel="stylesheet">
+<link href="css/mystyles.css" rel="stylesheet">
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+
+<body dir="rtl" data-spy="scroll" data-target="#myScrollspy" data-offset="200">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<a href="Home.html"><img src="img/logo.png" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="Home.html" aria-expanded="false" aria-controls="navbar" width="100" height="75"></a>
+				</div>
+				<div class="col-xs-3 col-xs-offset-5">
+					<div class="navbar-header">
+						<button type="button" class="btn btn-primary navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+                </div>
+			</div>
+		<font size="3" face="tahoma">
+			<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="Home.html"><font size="3"><span class="glyphicon glyphicon-home">
+						</span>          خانه</font></a></li>
+						<li><a href="aboutus.htm"><font size="3"><span class="glyphicon glyphicon-info-sign">
+						</span>          درباره ما</font></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+							role="button" aria-haspopup="true" aria-expanded="false">
+							<font size="3"><span class="glyphicon glyphicon-list-alt">
+							</span>          سفارش ها</font><span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">ثبت سفارش</a></li>
+								<li><a href="#">افزایش اعتبار</a></li>
+								<li><a href="#">پیگیری سفارش ها</a></li>
+							</ul>
+						</li>
+						<li class="active"><a href="contactus.htm"><font size="3"><span class="fa fa-envelope-o">
+						</span>          تماس با ما</font></a></li>
+					</ul>
+				<button id="gaga" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+				<span class="glyphicon glyphicon-log-in"></span>
+				<font color="white">ثبت نام</font></button>				
+					<form class="navbar-form navbar-left" role="login">
+						<div class="form-group">
+						<button type="submit" class="btn btn-success">
+						<span class="glyphicon glyphicon-user"></span>          ورود</button>
+							<label class="checkbox-inline">
+								<input type="checkbox" name="approve" value="">
+									<font face="B Nazanin" size="3" color="white">به خاطر بسپار</font>
+							</label>
+							<input type="text" class="form-control input-sm" placeholder="نام کاربری">
+							<input type="text" class="form-control input-sm" placeholder="رمز عبور">
+						</div>
+					</form>	
+			</div>
+		</div>
+	</nav>
+	
+		<div id="loginModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">ورود </h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="نام کاربری">
+								<input type="text" class="form-control" placeholder="رمز عبور">
+								<input type="text" class="form-control" placeholder="تکرار رمز عبور">
+								<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span>
+										ثبت نام</button>
+								<button type="button" class="btn btn-default btn-sm"
+									data-dismiss="modal">بستن</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <header class="jumbotron">	
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-xs-12 col-sm-8" id="nana">
+                    <h1><font face="B Nazanin"><b>خدمات پرداخت  خارج از کشور</b></font></h1>
+                    <p><font face="B Nazanin">
+					انجام کلیه ی امور پرداخت از سایت های خارجی با کارت های اعتباری در کمترین زمان و با کمترین نرخ کارمزد
+					<p style="padding:1"></p>
+					<a class="btn btn-info" href="#">بیشتر بدانید &raquo;</a></font></p>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+					<div class="row">
+						<p style="padding:10px"></p>
+					</div>
+					<div class="row">
+						<img src="img/logo.png" class="img-responsive">
+					</div>
+                </div>
+				<div class="col-xs-12 col-sm-2">
+					<div class="row">
+						<p style="padding:30px"></p>
+					</div>
+					<div class="row">
+						<a class="btn btn-warning btn-lg responsive" href="#comments" href="#reserveform">
+						انتقادات و پیشنهادات</a>  
+					</div>
+				</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+		<div class="row">
+		     <div class="col-xs-12 col-sm-10">
+        <div class="row">
+            <div class="col-xs-12">
+               <ul class="breadcrumb">
+                   <li><a href="Home.html">خانه</a></li>
+                   <li class="active"><a href="contactus.htm">تماس با ما</a></li>
+               </ul>
+            </div>
+            <div class="col-xs-12">
+               <h3><font face="B Nazanin">تماس با ما</font></h3>
+               <hr>
+            </div>
+        </div>
+           <div class="col-xs-12">
+              <h3><font face="B Nazanin">سوالات متداول</font></h3> 
+           </div>
+				<p style="padding:30px"></p>
+		<div id="history" class="row row-content">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default" id="1">
+                        <div class="panel-heading" role="tab" id="headingPeter">
+                            <h3 class="panel-title">
+                                <a role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#peter"
+                                     aria-expanded="true" aria-controls="peter">
+                                    کارمزد به ازای هر پرداخت چقدر می باشد؟ </a>
+                            </h3>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse in"
+                             id="peter"    aria-labelledby="headingPeter">
+                            <div class="panel-body">
+                                <p> . . . </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default" id="2">
+                        <div class="panel-heading" role="tab" id="headingDanny">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#danny"
+                                     aria-expanded="false" aria-controls="danny">
+									 چگونه می توانم از خدمات پرداخت خارجی استفاده کنم؟</a>
+                            </h3>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse"
+                             id="danny"    aria-labelledby="headingDanny">
+                            <div class="panel-body">
+                                <p> . . . </em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default" id="3">
+                        <div class="panel-heading" role="tab" id="headingAgumbe">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#agumbe"
+                                     aria-expanded="false" aria-controls="agumbe">
+                                    آیا امکان خرید از سایت هایی مانند آمازون و ... وجود دارد؟</a>
+                            </h3>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse"
+                             id="agumbe"    aria-labelledby="headingAgumbe">
+                            <div class="panel-body">
+                                <p> . . . </em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default" id="4">
+                        <div class="panel-heading" role="tab" id="headingAlberto">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#alberto"
+                                     aria-expanded="false" aria-controls="alberto">
+                                    قیمت دلار بر چه مبنایی محاسبه شده است؟</small></a>
+                            </h3>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse"
+                             id="alberto"    aria-labelledby="headingAlberto">
+                            <div class="panel-body">
+                                <p> . . . </em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+			</div>
+		<div id="corporate" class="row row-content">
+           <div class="col-xs-12">
+              <h3><font face="B Nazanin">نشانی</font></h3> 
+           </div>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+                    <address">
+					<font face="B Nazanin" size="5px">
+		             تهران خیابان شهید بهشتی<br>
+		            خیابان شهید صابونچی (آپادانا)<br>
+					کوچه چهارم پلاک 7 واحد 10<br>
+		            <i class="fa fa-phone"></i>:02122271066<br>
+		            <i class="fa fa-fax"></i>:09333726880<br>
+		            <i class="fa fa-envelope"></i>: 
+                        <a href="mailto:confusion@food.net">info@foreignpay.ir</a>
+		           </address>
+				   </font>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+                <video width="400" controls><source src="http://foreignpay.ir/Louie.S03E10.mp4" type="video/mp4"> </video>
+            </div>
+            <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+               <div type="button-group" role="group" aria-lable="...">
+			   <a type="button" class="btn btn-primary" href="tel:+989125001830">
+			   <font size="4px"><i class="fa fa-phone">
+			             تلفن</font></i></a>
+			   <a type="button" class="btn btn-info" href="https://t.me/TSEAnalyst">
+			   <font size="4px"><i class="fa fa-telegram">
+			             تلگرام</font></i></a>
+				<a type="button" class="btn btn-success" href="mailto:info@foreignpay.ir">
+				<font size="4px"><i class="fa fa-envelope-o">
+			             ایمیل</font></i></a>
+				</div>
+            </div>
+        </div>
+			<p id="comments" style="padding:30px"></p>
+        <div id="facts" class="row row-content">
+           <div class="col-xs-12">
+              <h3><font face="B Nazanin">نظرات و پیشنهادات خود را برای ما ارسال کنید</font></h3> 
+           </div>
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+						<div class="col-sm-2">
+							<label for="firstname"><font face="B Nazanin" size="4px">نام:</font></label>
+						</div>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="firstname" name="firstname"
+							placeholder="نامز خود را وارد کنید">
+						</div>
+                    </div>
+                    <div class="form-group">
+						<div class="col-sm-2">
+							<label for="lastname"><font face="B Nazanin" size="4px">نام خانوادگی:</font></label>
+						</div>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname"
+							placeholder="نام خانوادگی  خود را وارد کنید">
+                        </div>
+                    </div>
+			<div class="form-group">
+				<div class="col-sm-2">
+					<label for="emailid" class="control-label"><font face="B Nazanin" size="4px">ایمیل:</font></label>
+				</div>
+				<div class="col-sm-10">
+                      <input type="email" class="form-control" id="emailid" name="emailid"
+					  placeholder="پست الکترونیکی خود را وارد کنید">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-xs-12 col-sm-2">
+					<label for="telnum" class="control-label"><font face="B Nazanin" size="4px">شماره تماس:</font></label>
+				</div>
+				<div class="col-xs-7 col-sm-6 col-md-7">
+					<input type="tel" class="form-control" id="telnum" name="telnum"
+					placeholder="شماره تماس خود را وارد نمایید">
+				</div>
+				<div class="col-xs-5 col-sm-4 col-md-3">
+					<div class="input-group">
+						<div class="input-group-addon">(</div>
+								<input type="tel" class="form-control" id="areacode" name="areacode"
+								placeholder="پیش شماره شهر">
+						<div class="input-group-addon">)</div>
+					</div>
+				</div>
+			</div>
+				<div class="form-group">
+					<div class="checkbox col-sm-4 col-sm-offset-1">
+						<label class="checkbox-inline">
+							<input type="checkbox" name="approve" value="">
+								<font face="B Nazanin" size="4px">اجازه میدهید با شما ازتباط برقرار کنیم؟</font>
+						</label>
+					</div>
+					<div class="col-sm-3">
+						<select class="form-control">
+							<option>تلفن</option>
+							<option>ایمیل</option>
+						</select>
+					</div>
+				</div>
+				    <div class="form-group">
+                        <label for="feedback" class="col-sm-2 control-label">
+						<font face="B Nazanin" size="4px">نظرات و پیشنهادات:</font></label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+					<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-primary">ارسال نظر</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		<nav class="hidden-xs col-sm-2" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="300">
+					<li><a href="#history"><font size="5" face="B nazanin">سوالات متداول</font></a></li>
+					<li><a href="#1"><font size="4" face="B nazanin">کارمزد</font></a></li>
+					<li><a href="#2"><font size="4" face="B nazanin">خدمات</font></a></li>
+					<li><a href="#3"><font size="4" face="B nazanin">خرید کالا</font></a></li>
+					<li><a href="#4"><font size="4" face="B nazanin">نرخ دلار</font></a></li>					
+					<li><a href="#corporate"><font size="5" face="B nazanin">نشانی</font></a></li>
+					<li><a href="#facts"><font size="5" face="B nazanin">ارسال نظرات</font></a></li>
+            </ul>
+        </nav>
+	</div>
+</div>
+			<p style="padding:30px"></p>
+    <footer class="row-footer">
+     <div class="container">
+        <div class="row">             
+            <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
+				<font face="B Nazanin" size="5px">
+                    <h5>لینک ها:</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">خانه</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">سفارشات</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                    </ul>
+				</font>
+                </div>
+                <div class="col-xs-6 col-sm-5">
+                    <h5>نشانی ما:</h5>
+                    <address">
+					<font face="B Nazanin" size="5px">
+		             تهران خیابان شهید بهشتی<br>
+		            خیابان شهید صابونچی (آپادانا)<br>
+					کوچه چهارم پلاک 7 واحد 10<br>
+		            <i class="fa fa-phone"></i>:02122271066<br>
+		            <i class="fa fa-fax"></i>:09333726880<br>
+		            <i class="fa fa-envelope"></i>: 
+                        <a href="mailto:confusion@food.net">info@foreignpay.ir</a>
+		           </address>
+                </div>
+                <div class="col-xs-12 col-sm-4" align="center">
+                    <div class="nav navbar-nav" style="padding: 40px 10px;">
+                        <a class="btn btn-social-icon" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon" href="https://t.me/TSEAnalyst"><i class="fa fa-telegram"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <p style="padding:10px;"></p>
+                    <p align="center">© Copyright 2015 Foreign Pay Corporation</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+         });
+    </script>
+</body>
+
+</html>

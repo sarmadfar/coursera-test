@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پرداخت خارجی</title>
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap-social.css" rel="stylesheet">
+<link href="css/mystyles.css" rel="stylesheet">
+</head>
+
+<body dir="rtl" data-spy="scroll" data-offset="200" data-target="#myScrollspy">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<a href="Home.html"><img src="img/logo.png" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="Home.html" aria-expanded="false" aria-controls="navbar" width="100" height="75"></a>
+				</div>
+				<div class="col-xs-3 col-xs-offset-5">
+					<div class="navbar-header">
+						<button type="button" class="btn btn-primary navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+                </div>
+			</div>
+		<font size="3" face="tahoma">
+			<div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html"><font size="3"><span class="glyphicon glyphicon-home">
+					</span>          خانه</font></a></li>
+					<li class="active"><a href="aboutus.htm"><font size="3"><span class="glyphicon glyphicon-info-sign">
+					</span>          درباره ما</font></a></li>
+					<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+						 role="button" aria-haspopup="true" aria-expanded="false">
+						 <font size="3"><span class="glyphicon glyphicon-list-alt">
+						 </span>          سفارش ها</font><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+							<li><a href="#">ثبت سفارش</a></li>
+							<li><a href="#">افزایش اعتبار</a></li>
+							<li><a href="#">پیگیری سفارش ها</a></li>
+						</ul>
+					</li>
+					<li><a href="contactus.htm"><font size="3"><span class="fa fa-envelope-o">
+					</span>          تماس با ما</font></a></li>
+				</ul>
+					<button class="btn btn-primary" id="gaga" data-toggle="modal" data-target="#loginModal">
+					<span class="glyphicon glyphicon-log-in"></span>
+					<font color="white">ثبت نام</font></button>
+				<form class="navbar-form navbar-left" role="login">
+					<div class="form-group">
+						<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-user"></span>
+						          ورود</button>
+						<label class="checkbox-inline">
+							<input type="checkbox" name="approve" value="">
+								<font face="B Nazanin" size="3" color="white">به خاطر بسپار</font>
+						</label>
+						<input type="text" class="form-control input-sm" placeholder="نام کاربری">
+						<input type="text" class="form-control input-sm" placeholder="رمز عبور">
+					</div>
+				</form>			
+			</div>
+		</div>
+	</nav>
+		<div id="loginModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">ورود </h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="نام کاربری">
+								<input type="text" class="form-control" placeholder="رمز عبور">
+								<input type="text" class="form-control" placeholder="تکرار رمز عبور">
+								<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span>
+										ثبت نام</button>
+								<button type="button" class="btn btn-default btn-sm"
+									data-dismiss="modal">بستن</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+    <header class="jumbotron">	
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-xs-12 col-sm-8" id="nana">
+                    <h1><font face="B Nazanin"><b>خدمات پرداخت  خارج از کشور</b></font></h1>
+                    <p><font face="B Nazanin">
+					انجام کلیه ی امور پرداخت از سایت های خارجی با کارت های اعتباری در کمترین زمان و با کمترین نرخ کارمزد
+					<p style="padding:1"></p>
+					<a class="btn btn-info" href="#">بیشتر بدانید &raquo;</a></font></p>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+					<div class="row">
+						<p style="padding:10px"></p>
+					</div>
+					<div class="row">
+						<img src="img/logo.png" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-2">
+					<div class="row">
+						<p style="padding:30px"></p>
+					</div>
+					<div class="row">
+						<a class="btn btn-warning btn-lg responsive" href="#whatwecando?">چه کارایی از ما برمیاد؟</a>  
+					</div>
+				</div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+               <ul class="breadcrumb">
+                   <li><a href="Home.html">خانه</a></li>
+                   <li class="active"><a href="contactus.htm">درباره ما</a></li>
+               </ul>
+            </div>
+               <div class="col-xs-12 col-sm-6 col-lg-8">
+                <h2><font face="B Nazanin">از کجا پیدامون شده؟<font></h2>
+                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence
+				in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys
+				patronage from the A-list clientele in Hong Kong.  Featuring four of the best three-star Michelin chefs
+				in the world, you never know what will arrive on your plate the next time you visit us.</p>
+                <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by
+				our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
+            </div>
+			<div class="col-xs-12 col-sm-6 col-lg-4">
+			     <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><font size="4px">Facts At a Glance</font></h3>
+                    </div>
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+							<font size="4px">
+                            <dt>Started</dt>
+                            <dd>3 Feb. 2013</dd>
+                            <dt>Major Stake Holder</dt>
+                            <dd>HK Fine Foods Inc.</dd>
+                            <dt>Last Year's Turnover</dt>
+                            <dd>$1,250,375</dd>
+                            <dt>Employees</dt>
+                            <dd>40</dd>
+							</font>
+                       </dl>
+                    </div>
+                </div>
+			</div>
+            <div>
+                <p style="padding:20px;"></p>
+            </div>
+        </div>
+                <div class="well">
+                    <blockquote>
+                        <p>You better cut the pizza in four pieces because
+                            I'm not hungry enough to eat six.</p>
+                        <footer>Yogi Berra,
+                          <cite>The Wit and Wisdom of Yogi Berra,
+                            P. Pepe, Diversion Books, 2014</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+
+
+        <div>
+            <div id="whatwecando?" class="col-xs-12">
+                <h2>چه کارهایی از دست مون بر میاد؟</h2>
+				
+				<ul class="nav nav-pills" role="tablist">
+                    <li role="presentation" class="active">
+						<a href="#peter" aria-controls="peter"
+						role="tab" data-toggle="tab">خدمات پرداخت با کارت های اعتباری</a></li>
+                    <li role="presentation"><a href="#danny"
+						aria-controls="danny" role="tab"
+						data-toggle="tab">انتقال وجه به خارج از کشور</a></li>
+					<li role="presentation"><a href="#agumbe"
+						aria-controls="agumbe" role="tab"
+						data-toggle="tab">ثبت آگهی های جابجایی های ارزی</a></li>
+                    <li role="presentation"><a href="#alberto"
+						aria-controls="alberto" role="tab"
+						data-toggle="tab">ثبت آگهی پرداخت با کارت اعتباری</a></li>
+                </ul>
+		<div class="tab-content col-xs-12">
+			<div role="tabpanel" class="tab-pane fade in active" id="peter">
+                <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+                <p>Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous 
+				journey to the shores of America with the intention of giving their children the best future. His
+				mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available
+				inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which
+				<em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant,
+				pioneering cross-cultural culinary connections.</p>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="danny">
+				<h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
+				<p>Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established
+				family tradition in farming and produce. His experiences growing up on a farm in the Australian outback
+				gave him great appreciation for varieties of food sources. As he puts it in his own words,
+				<em>Everything that runs, wins, and everything that stays, pays!</em></p>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="agumbe">
+			<h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
+				<p>Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish
+				that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish
+				does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.
+				</em></p>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="alberto">			
+				<h3>Alberto Somayya <small>Executive Chef</small></h3>
+				<p>Award winning three-star Michelin chef with wide International experience having worked closely with
+				whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.
+				He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit!
+				Amma Mia!</em></p>
+			</div>
+		</div>
+			<div>
+                <p style="padding:20px;"></p>
+			</div>
+       </div>
+	<div class="row row-content">
+            <div class="col-xs-12 col-sm-9">
+               <h2>Facts &amp; Figures</h2></font>
+				                <div class="table-responsive">
+               <table class="table table-striped">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <th>2013</th>
+                        <th>2014</th>
+                        <th>2015</th>
+                    </tr>
+                    <tr>
+                        <th>Employees</th>
+                        <td>15</td>
+                        <td>30</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <th>Guests Served</th>
+                        <td>15000</td>
+                        <td>45000</td>
+                        <td>100,000</td>
+                    </tr>
+                    <tr>
+                        <th>Special Events</th>
+                        <td>3</td>
+                        <td>20</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <th>Annual Turnover</th>
+                        <td>$251,325</td>
+                        <td>$1,250,375</td>
+                        <td>~$3,000,000</td>
+                    </tr>
+                </table>
+                </div>
+
+            </div>
+             <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+            </div>
+		</div>
+	</div> 
+    </div>
+    <footer class="row-footer">
+     <div class="container">
+        <div class="row">             
+            <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-1">
+				<font face="B Nazanin" size="5px">
+                    <h5>لینک ها:</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">خانه</a></li>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">سفارشات</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                    </ul>
+				</font>
+                </div>
+                <div class="col-xs-6 col-sm-5">
+                    <h5>نشانی ما:</h5>
+                    <address">
+					<font face="B Nazanin" size="5px">
+		             تهران خیابان شهید بهشتی<br>
+		            خیابان شهید صابونچی (آپادانا)<br>
+					کوچه چهارم پلاک 7 واحد 10<br>
+		            <i class="fa fa-phone"></i>:02122271066<br>
+		            <i class="fa fa-fax"></i>:09333726880<br>
+		            <i class="fa fa-envelope"></i>: 
+                        <a href="mailto:confusion@food.net">info@foreignpay.ir</a>
+		           </address>
+                </div>
+                <div class="col-xs-12 col-sm-4" align="center">
+                    <div class="nav navbar-nav" style="padding: 40px 10px;">
+                        <a class="btn btn-social-icon" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon" href="https://t.me/TSEAnalyst"><i class="fa fa-telegram"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <p style="padding:10px;"></p>
+                    <p align="center">© Copyright 2015 Foreign Pay Corporation</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+         });
+    </script>
+
+</body>
+
+</html>

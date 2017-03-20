@@ -1,0 +1,65 @@
+
+
+    <!DOCTYPE html>
+    <html lang="fa" dir="rtl" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head id="Head1"></head>
+    <body>
+        <form id="form1" enctype="multipart/form-data" action="/" method="post">
+
+    <div class="aspNetHidden"></div>
+    <div class="aspNetHidden"></div>
+    <a class="STP" href="http://sahand.tehranpayment.com/"></a>
+    <a class="STP1" target="_blank" href="https://telegram.me/tehranpayment"></a>
+    <input id="hndCurrancy1" type="hidden" value="1" name="hndCurrancy1"></input>
+    <input id="hndCurrancy2" type="hidden" value="0.76872" name="hndCurrancy2"></input>
+    <input id="hndCurrancy3" type="hidden" value="1.08605" name="hndCurrancy3"></input>
+    <input id="hndCurrancy4" type="hidden" value="0.71861" name="hndCurrancy4"></input>
+    <input id="hndCurrancy5" type="hidden" value="1.27721" name="hndCurrancy5"></input>
+    <input id="hndCurrancy6" type="hidden" value="1" name="hndCurrancy6"></input>
+    <input id="hndCurrancy7" type="hidden" value="1" name="hndCurrancy7"></input>
+    <input id="hndCurrancy8" type="hidden" value="1" name="hndCurrancy8"></input>
+    <input id="hndDollarRate" type="hidden" value="41550" name="hndDollarRate"></input>
+    <input id="hndSession" type="hidden" name="hndSession"></input>
+    <input id="hnddbclick" type="hidden" value="0"></input>
+    <div id="divAlert" style="display: none;"></div>
+    <div id="header">
+        <div id="top-menu" class="main"></div>
+        <div id="slider">
+            <div class="main">
+                <div class="namad"></div>
+                <div id="mhblindsshow" class="mhSlideshow" style="height: 229px; width: 980px;">
+
+    <img alt="پرداخت آنلاین ارزی دانشجویی" src="../Images/slider/slide1.jpg" style="margin: 0px; padding: 0px;"></img>
+    <img alt="ثبت نام آزمون های TOEFLibt و GRE" src="../Images/slider/slide2.jpg" style="margin: 0px; padding: 0px;"></img>
+    <img alt="پی پال" src="../Images/slider/slide3.v1.jpg" style="margin: 0px; padding: 0px;"></img>
+    <a target="_blank" href="http://sahand.tehranpayment.com/"></a>
+    <a target="_blank" href="/payment/MasterCard/Virtual-MasterCard-purchase"></a>
+    <div class="slideContainer" style="height: 229px; width: 980px; background: transparent url("..…lider/silde61.jpg") no-repeat scroll 0% 0%; cursor: pointer;">
+
+                                    <div class="slice" style="left: 0px; width: 98px; height: 100%; opacity: 1; background…ilde61.jpg") no-repeat scroll 0px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 98px; width: 98px; height: 100%; opacity: 1; backgroun…de61.jpg") no-repeat scroll -98px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 196px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -196px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 294px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -294px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 392px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -392px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 490px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -490px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 588px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -588px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 686px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -686px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 784px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -784px 0%; top: 0px; bottom: 0px;"></div>
+                                    <div class="slice" style="left: 882px; width: 98px; height: 100%; opacity: 1; backgrou…e61.jpg") no-repeat scroll -882px 0%; top: 0px; bottom: 0px;"></div>
+                                </div>
+                                <div class="navBar" style="text-align: center; bottom: 1px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="dollarRate" style="height: 46px !important"></div>
+                    <div id="calculator"></div>
+                    <div id="nav"></div>
+                </div>
+                <div id="wrapper"></div>
+                <div class="footer"></div>
+            </form>
+            <script src="/Scripts/Page/Default.v12.js?v=1.7"></script>
+        </body>
+    </html>
+

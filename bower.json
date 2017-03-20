@@ -1,0 +1,27 @@
+{
+  "name": "foreignpay",
+  "description": "credit card services for iranian student",
+  "main": "Home.html",
+  "keywords": [
+    "Payment",
+    "ForeignPay",
+    "Credit",
+    "Card"
+  ],
+  "authors": [
+    "Ehsan Sarmadfar"
+  ],
+  "license": "MIT",
+  "homepage": "foreignpay.ir",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

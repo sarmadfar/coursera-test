@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<script>
+function Add()
+{
+var input1 = document.getElementById('nana').value;
+if(input1.length<5){
+document.getElementById('sasa').innerHTML = "";
+document.getElementById('para').innerHTML = "Too short";
+return (true);
+}
+else{
+document.getElementById('para').innerHTML = "";
+document.getElementById('sasa').innerHTML = "It's long enough";
+return (false);
+}
+}
+</script>
+</head>
+<body>
+<input id="nana" onblur="Add();">
+</input><span id='para'style="color:red;">
+</span>
+<span id='sasa'style="color:green;">
+</span><input></input>
+</body>
+</html>
